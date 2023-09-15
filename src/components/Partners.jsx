@@ -1,5 +1,4 @@
 import React from 'react'
-import logo from '../assets/logo.png'
 import skf from '../assets/skf.png'
 import ultrafloat from '../assets/ultrafloat.jpg'
 import protego from '../assets/protego.png'
