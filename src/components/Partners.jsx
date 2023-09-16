@@ -9,10 +9,11 @@ import larsen from '../assets/larsen.png'
 import tnt from '../assets/tnt.png'
 import pumpen from '../assets/pumpen.png'
 import johnson from '../assets/johnson.png'
+import fourcaps from '../assets/fourcaps.png'
 
 const Partners = () => {
   return (
-    <div name='partners' className='w-full h-screen'>
+    <div name='partners' className='w-full h-full sm:h-screen'>
 
         {/* Container */}
         <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
@@ -24,43 +25,47 @@ const Partners = () => {
             <div className='w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8'>
               <div className=' shadow-md shadow-[grey] hover:scale-110 duration-500 '>
                   <img className='pt-2 w-20 mx-auto' src={skf} alt='skf'/>
-                  <p className='my-4 font-bold'>SKF</p>
+                  <p className='italic my-4 font-bold'>SKF</p>
               </div>
               <div className=' shadow-md shadow-[grey] hover:scale-110 duration-500 '>
                   <img className='pt-2 w-20 mx-auto' src={ultrafloat} alt='ultrafloat'/>
-                  <p className='my-4 font-bold'>ULTRAFLOAT</p>
+                  <p className='italic my-4 font-bold'>ULTRAFLOAT</p>
               </div>
               <div className=' shadow-md shadow-[grey] hover:scale-110 duration-500 '>
                   <img className='pt-2 w-20 mx-auto' src={protego} alt='protego'/>
-                  <p className='my-4 font-bold'>PROTEGO</p>
+                  <p className='italic my-4 font-bold'>PROTEGO</p>
               </div>
               <div className=' shadow-md shadow-[grey] hover:scale-110 duration-500 '>
                   <img className='pt-2 w-20 mx-auto' src={apex} alt='apex'/>
-                  <p className='my-4 font-bold'>APEX PUMPS</p>
+                  <p className='italic my-4 font-bold'>APEX PUMPS</p>
               </div>
               <div className=' shadow-md shadow-[grey] hover:scale-110 duration-500 '>
                   <img className='pt-2 w-20 mx-auto' src={abb} alt='abb'/>
-                  <p className='my-4 font-bold'>ABB</p>
+                  <p className='italic my-4 font-bold'>ABB</p>
               </div>
               <div className=' shadow-md shadow-[grey] hover:scale-110 duration-500 '>
                   <img className='pt-2 w-20 mx-auto' src={almig} alt='almig'/>
-                  <p className='my-4 font-bold'>ALMIG</p>
+                  <p className='italic my-4 font-bold'>ALMIG</p>
               </div>
               <div className=' shadow-md shadow-[grey] hover:scale-110 duration-500 '>
                   <img className='pt-2 w-20 mx-auto' src={larsen} alt='larsen'/>
-                  <p className='my-4 font-bold'>LARSEN & TURBO</p>
+                  <p className='italic my-4 font-bold'>LARSEN & TURBO</p>
               </div>
               <div className=' shadow-md shadow-[grey] hover:scale-110 duration-500 '>
                   <img className='pt-2 w-20 mx-auto' src={pumpen} alt='vn'/>
-                  <p className='my-4 font-bold'>VN-PUMPEN</p>
+                  <p className='italic my-4 font-bold'>VN-PUMPEN</p>
               </div>
               <div className=' shadow-md shadow-[grey] hover:scale-110 duration-500 '>
                   <img className='pt-2 w-20 mx-auto' src={tnt} alt='tnt'/>
-                  <p className='my-4 font-bold'>T & T Valve & Instrument</p>
+                  <p className='italic my-4 font-bold'>T & T Valve & Instrument</p>
               </div>
               <div className=' shadow-md shadow-[grey] hover:scale-110 duration-500 '>
                   <img className='pt-2 w-20 mx-auto' src={johnson} alt='johnson'/>
-                  <p className='my-4 font-bold'>JOHNSON PUMP</p>
+                  <p className='italic my-4 font-bold'>JOHNSON PUMP</p>
+              </div>
+              <div className=' shadow-md shadow-[grey] hover:scale-110 duration-500 '>
+                  <img className='pt-2 w-20 mx-auto' src={fourcaps} alt='fourcaps'/>
+                  <p className='italic my-4 font-bold'>FOUR CAPS</p>
               </div>
 
             </div>
