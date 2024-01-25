@@ -16,7 +16,7 @@ const Partners = () => {
     <div name='partners' className='w-full h-full sm:h-screen'>
 
         {/* Container */}
-        <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
+        <div className='max-w-[1200px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
             <div className='pr-3 '>
               <p className='text-4xl font-bold inline border-b-4 border-orange-400 text-gray-800 '> Partners</p>
             </div>

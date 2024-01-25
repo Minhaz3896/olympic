@@ -3,8 +3,9 @@ import Home from './components/Home';
 import Navbar from './components/Navbar';
 import React from 'react';
 import Partners from './components/Partners';
-import Catalog from './components/Catalog';
+// import Catalog from './components/Catalog';
 import Contact from './components/Contact';
+import Reviews from './components/Reviews';
 
 
 function App() {
@@ -14,8 +15,10 @@ function App() {
       <Home /> 
       <About /> 
       <Partners/>
-      <Catalog/>
-      <Contact/>  
+      {/* <Catalog/> */}
+      <Reviews/>
+      <Contact/>
+      
     </div>
   );
 }
