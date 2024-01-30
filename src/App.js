@@ -6,6 +6,8 @@ import Partners from './components/Partners';
 // import Catalog from './components/Catalog';
 import Contact from './components/Contact';
 import Reviews from './components/Reviews';
+import Footer from './components/Footer';
+// import Try from './components/Try';
 
 
 function App() {
@@ -18,6 +20,9 @@ function App() {
       {/* <Catalog/> */}
       <Reviews/>
       <Contact/>
+      <Footer/>
+      
+
       
     </div>
   );
