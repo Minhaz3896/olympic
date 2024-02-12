@@ -5,7 +5,7 @@ const Try = () => {
   return (
     <div name='Try'>
       <Navbar></Navbar>
-      <div>Try</div>
+      <div>Try Hello</div>
     </div>
   );
 };

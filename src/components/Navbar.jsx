@@ -1,12 +1,32 @@
 import React, { useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 import logo from "../assets/logo.png";
-import { Link } from "react-scroll";
-// import { NavLink as RouterLink, useLocation, useNavigate } from "react-router-dom";
+import { Link as ScrollLink } from "react-scroll";
+import * as Scroll from "react-scroll";
+import {
+  NavLink as RouterLink,
+  useLocation,
+  useNavigate,
+} from "react-router-dom";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
   const handleClick = () => setNav(!nav);
+
+  const path = useLocation().pathname;
+  const location = path.split("/")[1];
+  const navigate = useNavigate();
+  const scroller = Scroll.scroller;
+
+  const goToPageAndScroll = async (selector) => {
+    await navigate("/");
+    await scroller.scrollTo(selector, {
+      duration: 500,
+      smooth: true,
+      offset: -75,
+      spy: true,
+    });
+  };
 
   return (
     <div className="fixed z-50 w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300">
@@ -17,31 +37,57 @@ const Navbar = () => {
       {/* Menu */}
 
       <ul className="hidden md:flex">
-        <li>
-          <Link to="home" smooth={true} duration={500}>
-            Home
-          </Link>
-        </li>
-        <li>
-          <Link to="about" smooth={true} duration={500}>
-            About
-          </Link>
-        </li>
-        <li>
-          <Link to="partners" smooth={true} duration={500}>
-            Partners
-          </Link>
-        </li>
-        <li>
-          <Link to="Try" smooth={true} duration={500}>
-            Catalog
-          </Link>
-        </li>
-        <li>
-          <Link to="contact" smooth={true} offset={50} duration={500}>
-            Contact
-          </Link>
-        </li>
+        {location !== "test" ? (
+          <>
+            <li>
+              {" "}
+              <ScrollLink to="home" spy={true} smooth={true} duration={500}>
+                Home
+              </ScrollLink>
+            </li>
+            <li>
+              <ScrollLink to="about" spy={true} smooth={true} duration={500}>
+                About
+              </ScrollLink>
+            </li>
+            <li>
+              <ScrollLink to="partners" smooth={true} duration={500}>
+                Partners
+              </ScrollLink>
+            </li>
+            <li>
+              <ScrollLink to="Try" smooth={true} duration={500}>
+                Catalog
+              </ScrollLink>
+            </li>
+            <li>
+              <ScrollLink to="contact" smooth={true} offset={50} duration={500}>
+                Contact
+              </ScrollLink>
+            </li>
+            <li>
+              <RouterLink to="/try">New Page</RouterLink>
+            </li>
+          </>
+        ) : (
+          <>
+            <li>
+              {" "}
+              <button onClick={() => goToPageAndScroll("home")}>Home</button>
+            </li>
+            <li>
+              <button onClick={() => goToPageAndScroll("about")}>About</button>
+            </li>
+            <li>
+              <button onClick={() => goToPageAndScroll("contact")}>
+                Contact
+              </button>
+            </li>
+            <li>
+              <RouterLink to="/try">New Page</RouterLink>
+            </li>
+          </>
+        )}
       </ul>
 
       {/* Hamburger */}
@@ -60,7 +106,7 @@ const Navbar = () => {
         }
       >
         <li className="py-6 text-4xl">
-          <Link
+          <ScrollLink
             onClick={handleClick}
             to="home"
             smooth={true}
@@ -68,11 +114,11 @@ const Navbar = () => {
             duration={500}
           >
             Home
-          </Link>
+          </ScrollLink>
         </li>
 
         <li className="py-6 text-4xl">
-          <Link
+          <ScrollLink
             onClick={handleClick}
             to="about"
             smooth={true}
@@ -80,11 +126,11 @@ const Navbar = () => {
             duration={500}
           >
             About
-          </Link>
+          </ScrollLink>
         </li>
 
         <li className="py-6 text-4xl">
-          <Link
+          <ScrollLink
             onClick={handleClick}
             to="partners"
             smooth={true}
@@ -92,11 +138,11 @@ const Navbar = () => {
             duration={500}
           >
             Partners
-          </Link>
+          </ScrollLink>
         </li>
 
         <li className="py-6 text-4xl">
-          <Link
+          <ScrollLink
             onClick={handleClick}
             to="catalog"
             smooth={true}
@@ -104,11 +150,11 @@ const Navbar = () => {
             duration={500}
           >
             Catalog
-          </Link>
+          </ScrollLink>
         </li>
 
         <li className="py-6 text-4xl">
-          <Link
+          <ScrollLink
             onClick={handleClick}
             to="contact"
             smooth={true}
@@ -116,7 +162,7 @@ const Navbar = () => {
             duration={500}
           >
             Contact
-          </Link>
+          </ScrollLink>
         </li>
       </ul>
     </div>
