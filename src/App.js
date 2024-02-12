@@ -21,9 +21,7 @@ function App() {
       <Reviews/>
       <Contact/>
       <Footer/>
-      
 
-      
     </div>
   );
 }
