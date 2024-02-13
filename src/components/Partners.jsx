@@ -13,11 +13,11 @@ import fourcaps from "../assets/fourcaps.png";
 
 const Partners = () => {
   return (
-    <div name="partners" className="w-full h-full sm:h-screen">
+    <div name="partners" className="w-full h-full sm:h-screen bg-gray-200">
       {/* Container */}
       <div className="max-w-[1200px] mx-auto p-4 flex flex-col justify-center w-full h-full">
         <div className="pr-3 ">
-          <p className="text-4xl font-bold inline border-b-4 border-orange-400 text-gray-800 ">
+          <p className="text-2xl font-bold inline border-b-4 border-orange-400 text-gray-800 md:text-4xl">
             Our Channel Partners
           </p>
         </div>
