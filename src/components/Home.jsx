@@ -19,7 +19,7 @@ const Home = () => {
             Vulbs, Compressor, Hose Pipes ect. to the private and public sectors
           </p>
         </div>
-        <div className='w-48 h-48 bg-orange-400 bg-contain bg-no-repeat  bg-[url("https://i.imgur.com/GPfmAlH.jpeg")] md:w-80 md:h-80'></div>
+        <div className='w-48 h-48 bg-contain bg-no-repeat  bg-[url("https://i.imgur.com/GPfmAlH.jpeg")] md:w-80 md:h-80'></div>
       </div>
     </div>
   );
