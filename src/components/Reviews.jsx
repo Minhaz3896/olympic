@@ -101,13 +101,13 @@ const Reviews = () => {
         </div>
         <div className="flex justify-end">
           {showExtracontent && <p>Hello World</p>}
-          {/* <button
+          <button
             onClick={() => {
               setshowExtracontent(!showExtracontent);
             }}
           >
             read more
-          </button> */}
+          </button>
         </div>
       </div>
     </div>

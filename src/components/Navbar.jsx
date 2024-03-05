@@ -33,7 +33,7 @@ const Navbar = () => {
             </ScrollLink>
           </li>
           <li>
-            <ScrollLink to="Try" smooth={true} duration={500}>
+            <ScrollLink to="catalog" smooth={true} duration={500}>
               Catalog
             </ScrollLink>
           </li>

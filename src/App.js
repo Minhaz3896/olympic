@@ -3,7 +3,7 @@ import Home from "./components/Home";
 import Navbar from "./components/Navbar";
 import React from "react";
 import Partners from "./components/Partners";
-// import Catalog from './components/Catalog';
+import Catalog from "./components/Catalog";
 import Contact from "./components/Contact";
 import Reviews from "./components/Reviews";
 import Footer from "./components/Footer";
@@ -16,6 +16,7 @@ function App() {
       <Home />
       <About />
       <Partners />
+      <Catalog />
       <Reviews />
       <Contact />
       <Footer />
