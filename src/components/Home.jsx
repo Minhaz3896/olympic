@@ -12,14 +12,15 @@ const Home = () => {
             OLYMPIC ASSOCIATES
           </h1>
           <p className="text-white text-sm py-4  lg:text-base ">
-            Olympic Associates and Mechatech Engineers was formed in 2001 as an
-            importer and supplier of Industrial utility based products and
-            incorporated as CEMCO Group in 2015. It’s key activities is to
+            Olympic Associates was formed in 2001 as an importer and supplier of
+            Industrial utility based products . It's key activities is to
             supply, design and installation and services of all types of Pumps,
-            Vulbs, Compressor, Hose Pipes ect. to the private and public sectors
+            Vulbs, Compressor, Hose Pipes ect. to the private and public
+            sectors. Participated in the 15th Asian Pharma Expo 2024 with
+            Protego India
           </p>
         </div>
-        <div className='w-48 h-48 bg-contain bg-no-repeat  bg-[url("https://i.imgur.com/GPfmAlH.jpeg")] md:w-80 md:h-80'></div>
+        {/* <div className='w-48 h-48 bg-contain bg-no-repeat  bg-[url("https://i.imgur.com/GPfmAlH.jpeg")] md:w-80 md:h-80'></div> */}
       </div>
     </div>
   );
