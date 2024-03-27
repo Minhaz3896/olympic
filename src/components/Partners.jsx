@@ -24,10 +24,10 @@ const Partners = () => {
 
         {/*Icon container  */}
         <div className="w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8">
-          <div className=" shadow-md shadow-[grey] hover:scale-110 duration-500 ">
+          {/* <div className=" shadow-md shadow-[grey] hover:scale-110 duration-500 ">
             <img className="pt-2 w-20 mx-auto" src={fourcaps} alt="fourcaps" />
             <p className="italic my-4 font-bold">FOUR CAPS</p>
-          </div>
+          </div> */}
           <div className=" shadow-md shadow-[grey] hover:scale-110 duration-500 ">
             <img className="pt-2 w-20 mx-auto" src={skf} alt="skf" />
             <p className="italic my-4 font-bold">SKF</p>
