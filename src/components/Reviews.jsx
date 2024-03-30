@@ -12,7 +12,6 @@ const Reviews = () => {
             Client Refrence
           </p>
         </div>
-
         {/* Review Container */}
         <div className="w-full  grid grid-cols-1 sm:grid-cols-4 gap-6">
           <div className="bg-[#0a192f] p-4">
@@ -99,16 +98,108 @@ const Reviews = () => {
             <p className="font-light ">Bangladesh</p>
           </div>
         </div>
-        <div className="flex justify-end">
-          {showExtracontent && <p>Hello World</p>}
-          <button
-            onClick={() => {
-              setshowExtracontent(!showExtracontent);
-            }}
-          >
-            read more
-          </button>
-        </div>
+        <div className="flex justify-end"></div>
+        <div />
+        {showExtracontent && (
+          <div>
+            {/* Your extra content goes here */}
+            <div className="w-full  grid grid-cols-1 sm:grid-cols-4 gap-6">
+              <div className="bg-[#0a192f] p-4">
+                <p className="font-light ">
+                  Supply of Pump Motor sets, Pump sets for ETP, Industrial
+                  Blower, Gate valve, safety equipment’s for steam and water
+                  line, Parts of Machinery and Many kinds Accessories,
+                </p>
+                <p className="font-medium pt-4 text-orange-300">SINHA Group</p>
+                <p className="font-light ">Dhaka</p>
+              </div>
+              <div className="bg-[#0a192f] p-4">
+                <p className="font-light ">
+                  Supply of Pump Motor sets, Pump sets for ETP, Industrial
+                  Blower, Gate valve, safety equipment’s for steam and water
+                  line, Parts of Machinery and Many kinds Accessories,
+                </p>
+                <p className="font-medium pt-4 text-orange-300">Bangla Cat</p>
+                <p className="font-light ">Dhaka</p>
+              </div>
+              <div className="bg-[#0a192f] p-4">
+                <p className="font-light ">
+                  Supply of Pump Motor sets, Pump sets for ETP, Industrial
+                  Blower, Gate valve, safety equipment’s for steam and water
+                  line, Parts of Machinery and Many kinds Accessories,
+                </p>
+                <p className="font-medium pt-4 text-orange-300">Apex Group</p>
+                <p className="font-light ">Dhaka</p>
+              </div>
+              <div className="bg-[#0a192f] p-4">
+                <p className="font-light ">
+                  Supply of Pump Motor sets, Pump sets for ETP, Industrial
+                  Blower, Gate valve, safety equipment’s for steam and water
+                  line, Parts of Machinery and Many kinds Accessories,
+                </p>
+                <p className="font-medium pt-4 text-orange-300">C&A Group</p>
+                <p className="font-light ">Chittagong</p>
+              </div>
+              <div className="bg-[#0a192f] p-4">
+                <p className="font-light ">
+                  Supply, Installation, Testing & Commissioning of Flame proof
+                  Pump sets with motor & starter for Fuel (Jet A -1 ) hydrant
+                  system at Shah Amanat International Airport, Chittagong to
+                  supply of fuel to air craf
+                </p>
+                <p className="font-medium pt-4 text-orange-300">
+                  Padma Oil Company Limited
+                </p>
+                <p className="font-light ">Bagnladesh</p>
+              </div>
+              <div className="bg-[#0a192f] p-4">
+                <p className="font-light ">
+                  Supply, Installation, Testing & Commissioning of Flame proof
+                  Pump sets with motor & starter of Fuel (Jet A -1 ) hydrant
+                  system at Shah Jalal International Airport, Dhaka to supply
+                  fuel to air craft
+                </p>
+                <p className="font-medium pt-4 text-orange-300">
+                  Padma Oil Company Limited
+                </p>
+                <p className="font-light ">Bangladesh</p>
+              </div>
+              <div className="bg-[#0a192f] p-4">
+                <p className="font-light ">
+                  Supplyof 18 sets Flame proof Pump sets (Centrifugal Pump )with
+                  motor & starter for Loading & Unloading system at Main
+                  Installation, Patenga Oil Depot, Chittagong
+                </p>
+                <p className="font-medium pt-4 text-orange-300">
+                  Padma Oil Company Limited
+                </p>
+                <p className="font-light ">Bangladesh</p>
+              </div>
+              <div className="bg-[#0a192f] p-4">
+                <p className="font-light ">
+                  Supply of Flame proof Pump sets (Centrifugal Pump ) with motor
+                  & starter for Loading & Unloading system at Main Installation,
+                  Patenga Oil Depot, Chittagong. We supplied Pump motor sets to
+                  themost of Oil depot of Padma Oil company over the country
+                </p>
+                <p className="font-medium pt-4 text-orange-300">
+                  Padma Oil Company Limited
+                </p>
+                <p className="font-light ">Bangladesh</p>
+              </div>
+            </div>
+            <div className="flex justify-end"></div>
+            <div />
+          </div>
+        )}
+        <button
+          className=""
+          onClick={() => {
+            setshowExtracontent(!showExtracontent);
+          }}
+        >
+          {showExtracontent ? "Hide" : "Read More"}
+        </button>
       </div>
     </div>
   );
