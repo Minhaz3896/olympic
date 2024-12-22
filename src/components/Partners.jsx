@@ -4,12 +4,12 @@ import ultrafloat from "../assets/ultrafloat.jpg";
 import protego from "../assets/protego.png";
 import apex from "../assets/apex.png";
 import abb from "../assets/abb.png";
-import almig from "../assets/almig.png";
+import dextech from "../assets/dextech.png";
 import larsen from "../assets/larsen.png";
 import tnt from "../assets/tnt.png";
 import pumpen from "../assets/pumpen.png";
 import johnson from "../assets/johnson.png";
-import fourcaps from "../assets/fourcaps.png";
+import KSB from "../assets/KSB.png";
 
 const Partners = () => {
   return (
@@ -28,22 +28,29 @@ const Partners = () => {
             <img className="pt-2 w-20 mx-auto" src={fourcaps} alt="fourcaps" />
             <p className="italic my-4 font-bold">FOUR CAPS</p>
           </div> */}
+
           <div className=" shadow-md shadow-[grey] hover:scale-110 duration-500 ">
-            <img className="pt-2 w-20 mx-auto" src={skf} alt="skf" />
-            <p className="italic my-4 font-bold">SKF</p>
+            <img className="pt-2 w-20 mx-auto" src={protego} alt="protego" />
+            <p className="italic my-4 font-bold">PROTEGO</p>
           </div>
+
           <div className=" shadow-md shadow-[grey] hover:scale-110 duration-500 ">
             <img
               className="pt-2 w-20 mx-auto"
               src={ultrafloat}
               alt="ultrafloat"
             />
-            <p className="italic my-4 font-bold">ULTRAFLOAT</p>
+            <p className="italic my-4 font-bold">ULTRAFLOTE</p>
           </div>
           <div className=" shadow-md shadow-[grey] hover:scale-110 duration-500 ">
-            <img className="pt-2 w-20 mx-auto" src={protego} alt="protego" />
-            <p className="italic my-4 font-bold">PROTEGO</p>
+            <img
+              className="pt-2 h-20 w-20 mx-auto"
+              src={dextech}
+              alt="Dextech"
+            />
+            <p className="italic my-4 font-bold">DEXTECH</p>
           </div>
+
           <div className=" shadow-md shadow-[grey] hover:scale-110 duration-500 ">
             <img className="pt-2 w-20 mx-auto" src={apex} alt="apex" />
             <p className="italic my-4 font-bold">APEX PUMPS</p>
@@ -53,8 +60,8 @@ const Partners = () => {
             <p className="italic my-4 font-bold">ABB</p>
           </div>
           <div className=" shadow-md shadow-[grey] hover:scale-110 duration-500 ">
-            <img className="pt-2 w-20 mx-auto" src={almig} alt="almig" />
-            <p className="italic my-4 font-bold">ALMIG</p>
+            <img className="pt-2 h-20 w-20 mx-auto" src={KSB} alt="KSB" />
+            <p className="italic my-4 font-bold">KSB</p>
           </div>
           <div className=" shadow-md shadow-[grey] hover:scale-110 duration-500 ">
             <img className="pt-2 w-20 mx-auto" src={larsen} alt="larsen" />

@@ -22,6 +22,15 @@ const Catalog = () => {
             Download
           </a>
         </div>
+        <div className="min-h-[290px] w-96 lg:min-h-[600px] flex flex-col justify-end bg-[url('https://i.ibb.co.com/C1XVQwT/Capture.jpg')] bg-contain bg-no-repeat">
+          <a
+            href="https://drive.google.com/uc?export=download&id=1i71JufGobzhZpDxAjovWKJUTb2n4Y1iq"
+            download
+            className="bg-orange-400 hover:bg-orange-600 text-white font-bold py-2 px-4 rounded"
+          >
+            Download
+          </a>
+        </div>
       </div>
     </div>
   );

@@ -33,6 +33,11 @@ const Navbar = () => {
             </ScrollLink>
           </li>
           <li>
+            <ScrollLink to="product" smooth={true} duration={500}>
+              Products
+            </ScrollLink>
+          </li>
+          <li>
             <ScrollLink to="catalog" smooth={true} duration={500}>
               Catalog
             </ScrollLink>
@@ -93,6 +98,17 @@ const Navbar = () => {
             duration={500}
           >
             Partners
+          </ScrollLink>
+        </li>
+        <li className="py-6 text-4xl">
+          <ScrollLink
+            onClick={handleClick}
+            to="product"
+            smooth={true}
+            offset={50}
+            duration={500}
+          >
+            Products
           </ScrollLink>
         </li>
 

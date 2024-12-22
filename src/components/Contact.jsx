@@ -35,7 +35,8 @@ const Contact = () => {
           <p className="text-lg pt-2">Telephone:</p>
           <p>031 618375, 2865220, 2853063</p>
           <p className="text-lg pt-2">Mobile:</p>
-          <p>+88 01711 748267</p>
+          <p>+88 01711 748267 ( WhatsApp ) </p>
+          <p>+88 01971 748267</p>
         </div>
       </div>
     </div>

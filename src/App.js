@@ -7,7 +7,7 @@ import Catalog from "./components/Catalog";
 import Contact from "./components/Contact";
 import Reviews from "./components/Reviews";
 import Footer from "./components/Footer";
-// import Try from './components/Try';
+import Product from "./components/Product";
 
 function App() {
   return (
@@ -16,6 +16,7 @@ function App() {
       <Home />
       <About />
       <Partners />
+      <Product />
       <Catalog />
       <Reviews />
       <Contact />
