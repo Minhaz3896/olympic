@@ -19,35 +19,6 @@ const Home = () => {
             system equipment, Hose Pipes ect. to the private and public sectors.
             Participated in the 15th Asian Pharma Expo 2024 with Protego India
           </h1>
-
-          <meta
-            name="Geodesic Dome By ULTRAFLOTE  "
-            content="Pressure & vacuum relief valve "
-          />
-
-          <meta
-            name="Internal Floating Cover/Roof by ULTRAFLOTE "
-            content="Pressure & vacuum relief valve "
-          />
-
-          <meta
-            name="Pressure & vacuum relief valve Protego "
-            content="Pressure & vacuum relief valve "
-          />
-          <meta name="Flame Arrestor For Protego " content="Flame Arrestor " />
-
-          <meta
-            name="Asian Pharma Expo"
-            content="Participated in the 15th Asian Pharma Expo 2024 with Protego India."
-          />
-          <meta
-            name="Protego Distributer in Bangladesh "
-            content="Sole Distrubuter and Marketing Agent of Protego in Bangladesh"
-          />
-          <meta
-            name="DexTech Distributer in Bangladesh "
-            content="Sole Distrubuter and Marketing Agent of DexTech in Bangladesh "
-          />
         </div>
         {/* <div className='w-48 h-48 bg-contain bg-no-repeat  bg-[url("https://i.imgur.com/GPfmAlH.jpeg")] md:w-80 md:h-80'></div> */}
       </div>
