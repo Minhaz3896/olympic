@@ -12,7 +12,18 @@ const Product = () => {
           <p className="text-2xl font-bold inline border-b-4  border-orange-400  md:text-4xl  ">
             Products Include
           </p>
-          <section className=" py-10 md:pt-52">
+          <li className="p-1 pt-2 font-semibold">
+            Flame Arrester & Breather valve.
+          </li>
+          <li className="p-1 font-semibold">Tank Accessories.</li>
+          <li className="p-1 font-semibold">All Types of Valves.</li>
+          <li className="p-1 font-semibold">All Types of Pumps.</li>
+          <li className="p-1 font-semibold">Internal Floating Cover / Roof.</li>
+          <li className="p-1 font-semibold">Floating Suction.</li>
+          <li className="p-1 font-semibold">Petroleum Oil Hose Pipes.</li>
+          <li className="p-1 font-semibold">Fire Fighting Equipments.</li>
+
+          <section className=" py-10 md:pt-10">
             <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
               <div className="flex flex-col items-start border border-gray-300 p-2 rounded-lg transition-all duration-300 hover:border-blue-500 hover:shadow-lg">
                 <img

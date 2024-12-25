@@ -12,12 +12,17 @@ const Home = () => {
             OLYMPIC ASSOCIATES
           </title>
           <h1 className="text-white text-sm py-4  lg:text-base ">
-            Olympic Associates was formed in 2001 as an importer and supplier of
+            {/* Olympic Associates was formed in 2001 as an importer and supplier of
             Industrial utility based products . It's key activities is to
             supply, Industrial Process Pumps, All type of Valves, Electric
             induction Motor, Explosion proof Motors, Fire Pumps, Fire hydrant
             system equipment, Hose Pipes ect. to the private and public sectors.
-            Participated in the 15th Asian Pharma Expo 2024 with Protego India
+            Participated in the 15th Asian Pharma Expo 2024 with Protego India */}
+            Our company works as a channel Partner & Marketing agent of some
+            foreign companies, like PROTEGO India & Germany. Ultraflote LLC,
+            USA. DEXTECH India Pvt Ltd. Apex Pumps Ltd, UK. Govt. Contractor.
+            Supplier, Importer & Exporter. Petroleum Oil & LPG
+            refueling station.
           </h1>
         </div>
         {/* <div className='w-48 h-48 bg-contain bg-no-repeat  bg-[url("https://i.imgur.com/GPfmAlH.jpeg")] md:w-80 md:h-80'></div> */}
